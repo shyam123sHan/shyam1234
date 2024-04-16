@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.banner{
+    width: 100%;
+    height: 97.5vh;
+    background-image: linear-gradient(rgba(0,0,0,0,40),rgba(0,0,0,0,40));
+    background-position: center;
+}
+
+
+
+.navbar{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    padding: 15px;
+}
+li a:hover{
+    background: black;
+    transition: 0.5s;
+    
+}
+
+.navbar a:hover{
+    color:white;
+    
+    
+    border-radius: 25px;
+    
+}
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+@media(min-aspect-ratio:16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header{
+    margin-top: 10%;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.header h2{
+    font-size: 60px;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.header p {
+    font-family: cursive;
+}
+.header h2 span{
+    color:#ff004f;
+}
+
+
+
+/*-----about  ------->*/
+
+#about{
+    padding: flex;
+    color: white;
+    background-color: black;
+    height: 97vh;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 120px;
+    padding: 80px;
+    position: relative;
+    left: 100px;
+    
+}
+.about-col-2 {
+    flex-basis: 60%;
+    bottom: 30px;
+    text-align: justify;
+    padding: 80px;
+
+    
+}
+.sub{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.about-col-2 p{
+    padding:25px;
+    position: relative;
+    text-decoration: solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    left: -25px;
+    
+}
+
+#skills{
+    padding: 30px 0;
+    height: 97vh;
+   
+    
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    padding: 40px;
+    color: aliceblue;
+}
+.skills-list p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.skills2 {
+   padding: 30px;
+   text-align: center;
+   font-size: 50px;
+   font-weight: 200;
+   color: aliceblue;
+
+}
+.skills h3{
+    color: aliceblue;
+}
+.skills-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: 0.5s;
+
+}
+
+
+.skills-list div h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+.skills-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: inline-block;
+}
+.skills-list div:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+#skills{
+    background-color: black;
+}
+
+
+/*---------contact---------->*/
+
+.contact-left{
+    
+    padding: 80px;
+    position: relative;
+    left: 200px;
+    height: 30vh;
+}
+.contact-right{
+    padding: 80px;
+    position: relative;
+    right: 200px;
+
+}
+.contact-left h1{
+    font-size:50px;
+    font-weight: 500%;
+
+}
+
+.contact-left p {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200px;
+    font-size: 15px;
+    
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+
+
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px)
+}
+
+.btn a{
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        margin-top: 30px;
+        transition: 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+
+}
+
+.btn a:hover{
+    color: #ff004f;
+
+}
+
+.contact-right form button{
+    width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    color:black;
+    border: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: black;
+    font-weight: 600;
+}
+
+.contact-right form button:hover{
+    background: #ff004f;
+    transition: 0.5s;
+   
+
+}
+.contact-right form button:active{
+    transform: translateY(6px);
+}
+.contact-right form{
+    width: 60%;
+  
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    flex-basis: 35%;
+    position: relative;
+}
+.contact-right{
+    left: 60px;
+}
+
+
+.tab-title h1{
+  
+  
+    display: inline;
+    position: relative;
+}
+
+    
+
+
+.tab-links.active-link::after{
+    width: 50%;
+    display: inline;
+}
+
+.dadi {    
+    top: -50px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.year{
+    color: #ff004f;
+}
+
+.dadi1 {    
+    top: -50px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.year1 {
+    color: #ff004f;
+}
+
+.dadi2 {    
+    top: -50px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.year2 {
+    color: #ff004f;
+}
+
+.eleventh p{
+    top: -90px;
+}
+
+.dadi2 p{
+   top: -135px;
+}
+.year2 p{
+    top: -175px;
+}
+.dadi3 p{
+    top: -220px;
+}
